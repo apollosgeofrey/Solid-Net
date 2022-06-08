@@ -1,0 +1,31 @@
+/* On small screens, set height to 'auto' for sidenav and grid */
+ body {margin: auto; padding:auto; background-color:lightgrey; text-align: center; font-size: 15px;}
+.row {height:auto; } 
+.sidenav { padding: 15px; background-color: #f1f1f1; height: auto; }
+#footer { background-color: #6495ED; color: white; padding: 15px; font-size: 16px; }
+footer a { color: lightgrey; }
+#errorshow {width: 100%; height: auto; margin: auto; background-color: grey; border-radius: 10px;}
+.mySlides{font-size: 30px; border: 3px solid black; width: 100%; height: auto; border-radius: 10px; position: relative; height: 800px;}
+.navbar-default-top {background-color:  #6495ED; }
+.navbar-default-top a {color: lightgrey;}
+.navbar-toggle {background-color: lightgrey;}
+.icon-bar{background-color: black;}
+#logodiv{margin-left: 5px; float: left; border: 1px solid white; width: 13%; height: auto; border-radius: 5px;}
+#invoicesearcheresult{ border: 1px solid black; font-size: 15px; }
+#changer {height:auto; border: 1px solid black; box-shadow: 2px 3px 20px black;}
+
+#boxes{height: auto;}
+
+@media screen and (min-width: 768px){
+    body{font-size: 14px;}
+    .row {height: 600px;}
+    .sidenav { height: auto; padding-top: 20px;  }
+    #link_content {height: auto; }
+    #link {height: 70%; position: fixed; width: 14%;}
+    #content { border-left:  1px solid black; float: right;}
+    #footer {width: 84%; float: right;  font-size: 18px;}
+    .mySlides{font-size: 70px; height: 500px;}
+    #logodiv{margin-left: 5px; float: left; border: 1px solid white; width: 7%; height: auto; border-radius: 5px;}
+    #invoicesearcheresult{ font-size: 17px; }
+}
+
